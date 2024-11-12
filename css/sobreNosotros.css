@@ -1,0 +1,302 @@
+nav{
+    /* Frame 2 */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 18px 64px;
+gap: 10px;
+
+width: 1440px;
+height: 50px;
+
+background: rgba(0, 5, 99, 0.48);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.contenedorTodo{
+    /* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 146px;
+
+width: 1312px;
+height: 54.13px;
+color:#FDFDE0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.item{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #FDFDE0;
+}
+.plus{
+    /* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 54px;
+
+width: 654px;
+height: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+body{
+    margin:0px;
+    /**//**/
+    display: flex;
+width: 1440px;
+height: 1024px;
+flex-direction: column;
+align-items: center;
+font-size: 18px;
+gap: 64px;
+background: linear-gradient(0deg, #FDFDE0 0%, #FDFDE0 100%), #FFF;
+}
+.contenedorLogo{
+    /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 7px;
+color:#000563;
+width: 125.97px;
+height: 54.13px;
+
+/**//**/
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: 64px;
+font-size: 16px;
+}
+.ctaplus{
+    /* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 156px;
+
+width: 1040px;
+height: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.cta{
+    display: flex;
+width: 230px;
+height: 50px;
+padding: 13px 23px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #000563;
+color:#FDFDE0;
+font-size: 18px;
+}
+
+/* css pagina*/
+
+main{
+    width: 1440px;
+}
+.mainContent{
+    display: flex;
+width: 781px;
+flex-direction: column;
+align-items: flex-start;
+gap: 108px;
+margin-left: 64px;
+}
+h1{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.descri{
+    display: flex;
+width: 650px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+
+.frase{
+    height: 92px;
+align-self: stretch;
+
+color: #000563;
+/**//**/
+font-size: 69px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.textoCTA{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 47px;
+align-self: stretch;
+}
+
+.textoCTA p{
+    height: 77px;
+align-self: stretch;
+
+color: #000563;
+/**//**/
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.cta1{
+    display: flex;
+width: 230px;
+height: 50px;
+padding: 13px 46px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 10px;
+background: #000563;
+
+color: #FDFDE0;
+/**//**/
+font-size: 18px;
+font-style: normal;
+line-height: normal;
+}
+
+.nombres{
+    display: flex;
+align-items: center;
+gap: 128px;
+align-self: stretch;
+}
+
+.yasi{
+    display: flex;
+width: 393px;
+flex-direction: column;
+align-items: center;
+gap: 2px;
+}
+
+.yasi .imagennombre{
+    display: flex;
+width: 222px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.imagennombre img{
+    display: flex;
+width: 222px;
+height: 222px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+
+border-radius: 222px;
+
+}
+.nombreYasi{
+    color: #000563;
+/**//**/
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.lala{
+    display: flex;
+width: 258px;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+}
+
+.lala .imagennombre{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+.nombrelala{
+    height: 51px;
+    align-self: stretch;
+
+    color: #000563;
+/**//**/
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.nombres p{
+    height: 35px;
+align-self: stretch;
+
+color: #000563;
+/**//**/
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
