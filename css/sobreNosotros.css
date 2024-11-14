@@ -6,14 +6,12 @@ flex-direction: column;
 align-items: flex-start;
 padding: 18px 64px;
 gap: 10px;
-
-width: 1440px;
-height: 50px;
+width: 100%;
 
 background: rgba(0, 5, 99, 0.48);
 backdrop-filter: blur(2px);
 /* Note: backdrop-filter has minimal browser support */
-
+box-sizing: content-box;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -29,6 +27,7 @@ justify-content: space-between;
 align-items: center;
 padding: 0px;
 gap: 146px;
+
 
 width: 1312px;
 height: 54.13px;
@@ -71,14 +70,14 @@ body{
     margin:0px;
     /**//**/
     display: flex;
-width: 1440px;
-height: 1024px;
 flex-direction: column;
 align-items: center;
-font-size: 18px;
 gap: 64px;
+font-size: 18px;
 background: linear-gradient(0deg, #FDFDE0 0%, #FDFDE0 100%), #FFF;
 }
+
+
 .contenedorLogo{
     /* Frame 2 */
 
@@ -98,8 +97,14 @@ height: 54.13px;
 flex: none;
 order: 0;
 flex-grow: 0;
-margin-left: 64px;
 font-size: 16px;
+}
+.navbar-collapse{
+    justify-content:space-around;
+    width: calc(100% - 130px);
+}
+.navbar-nav{
+    gap:54px;
 }
 .ctaplus{
     /* Frame 9 */
@@ -121,19 +126,6 @@ order: 1;
 flex-grow: 0;
 
 }
-.cta{
-    display: flex;
-width: 230px;
-height: 50px;
-padding: 13px 23px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 10px;
-background: #000563;
-color:#FDFDE0;
-font-size: 18px;
-}
 
 /* css pagina*/
 
@@ -142,11 +134,9 @@ main{
 }
 .mainContent{
     display: flex;
-width: 781px;
 flex-direction: column;
 align-items: flex-start;
 gap: 108px;
-margin-left: 64px;
 }
 h1{
     margin: 0;
@@ -159,14 +149,13 @@ h2{
 }
 .descri{
     display: flex;
-width: 650px;
+    width: 650px;
 flex-direction: column;
 align-items: flex-start;
 gap: 40px;
 }
 
 .frase{
-    height: 92px;
 align-self: stretch;
 
 color: #000563;
@@ -263,10 +252,10 @@ line-height: normal;
 
 .lala{
     display: flex;
-width: 258px;
 flex-direction: column;
 align-items: center;
 gap: 4px;
+text-align: center;
 }
 
 .lala .imagennombre{
