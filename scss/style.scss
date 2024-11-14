@@ -1,0 +1,122 @@
+$color1 : #FDFDE0; //beige
+$color2 : #000563; //azul
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 64px;
+    gap: 10px;
+    width: 100%;
+
+    background: rgba(0, 5, 99, 0.48);
+    backdrop-filter: blur(2px);
+
+    box-sizing: content-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+body{
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 140px;
+    font-size: 18px;
+    background: linear-gradient(0deg, $color1 0%, $color1 100%), #FFF;
+}
+
+.contenedorTodo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 146px;
+
+
+    width: 1312px;
+    height: 54.13px;
+    color:$color1;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.item{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: $color1;
+}
+.plus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 54px;
+
+    width: 654px;
+    height: 50px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.contenedorLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    color:$color2;
+    width: 125.97px;
+    height: 54.13px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+}
+.navbar-collapse{
+    justify-content:space-around;
+    width: calc(100% - 130px);
+}
+.navbar-nav{
+    gap:54px;
+}
+.ctaplus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 156px;
+
+    width: 1040px;
+    height: 50px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.cta{
+    display: flex;
+    width: 230px;
+    height: 50px;
+    padding: 13px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: $color2;
+    color:$color1;
+}

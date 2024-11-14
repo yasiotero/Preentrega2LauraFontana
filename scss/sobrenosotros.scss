@@ -1,0 +1,155 @@
+$color1:#FDFDE0;//beige
+$color2:#000563;//azul
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 108px;
+}
+
+h1,p,h2{
+    margin: 0;
+}
+
+.descri{
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.frase{
+    align-self: stretch;
+
+    color: $color2;
+    
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textoCTA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 47px;
+    align-self: stretch;
+    p{
+        height: 77px;
+        align-self: stretch;
+
+        color: $color2;
+
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+.cta1{
+    display: flex;
+    width: 230px;
+    height: 50px;
+    padding: 13px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    background: $color2;
+
+    color: $color1;
+    /**//**/
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.nombres{
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    align-self: stretch;
+
+    p{
+        height: 35px;
+        align-self: stretch;
+
+        color: $color2;
+        
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+}
+
+.yasi{
+    display: flex;
+    width: 393px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+
+    .imagennombre{
+        display: flex;
+        width: 222px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        img{
+            display: flex;
+            width: 222px;
+            height: 222px;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            border-radius: 222px;
+
+        }
+    }
+}
+.nombreYasi{
+    color: $color2;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lala{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+    .imagennombre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+    }
+}
+
+
+.nombrelala{
+    height: 51px;
+    align-self: stretch;
+
+    color: $color2;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+

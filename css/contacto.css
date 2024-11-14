@@ -1,216 +1,183 @@
-nav{
-    /* Frame 2 */
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 18px 64px;
-gap: 10px;
-width: 100%;
-
-background: rgba(0, 5, 99, 0.48);
-backdrop-filter: blur(2px);
-/* Note: backdrop-filter has minimal browser support */
-box-sizing: content-box;
-flex: none;
-order: 0;
-flex-grow: 0;
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 64px;
+  gap: 10px;
+  width: 100%;
+  background: rgba(0, 5, 99, 0.48);
+  backdrop-filter: blur(2px);
+  box-sizing: content-box;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.contenedorTodo{
-    /* Frame 10 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 146px;
-
-
-width: 1312px;
-height: 54.13px;
-color:#FDFDE0;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-}
-.item{
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-    color: #FDFDE0;
-}
-.plus{
-    /* Frame 7 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 54px;
-
-width: 654px;
-height: 50px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  font-size: 18px;
+  background: linear-gradient(0deg, #FDFDE0 0%, #FDFDE0 100%), #FFF;
 }
 
-body{
-    margin:0px;
-    /**//**/
-    display: flex;
-flex-direction: column;
-align-items: center;
-gap: 64px;
-font-size: 18px;
-background: linear-gradient(0deg, #FDFDE0 0%, #FDFDE0 100%), #FFF;
+h1, h2 {
+  margin: 0;
 }
 
-
-.contenedorLogo{
-    /* Frame 2 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 7px;
-color:#000563;
-width: 125.97px;
-height: 54.13px;
-
-/**//**/
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-font-size: 16px;
-}
-.navbar-collapse{
-    justify-content:space-around;
-    width: calc(100% - 130px);
-}
-.navbar-nav{
-    gap:54px;
-}
-.ctaplus{
-    /* Frame 9 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 156px;
-
-width: 1040px;
-height: 50px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
+.contenedorTodo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 146px;
+  width: 1312px;
+  height: 54.13px;
+  color: #FDFDE0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-h1,h2{
-    margin: 0;
+.item {
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #FDFDE0;
 }
 
-.mainContent{
-    display: flex;
-    width: 1312px;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 64px;
-}
-.contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    flex-shrink: 0;
-}
-.contacto div{
-    display: flex;
-width: 265px;
-flex-direction: column;
-align-items: flex-start;
+.plus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 54px;
+  width: 654px;
+  height: 50px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.contacto h1{
-    height: 92px;
-align-self: stretch;
-
-color: #000563;
-/**//**/
-font-size: 55px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.contenedorLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 7px;
+  color: #000563;
+  width: 125.97px;
+  height: 54.13px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-size: 16px;
 }
 
-.mainContent h2{
-    height: 36px;
-align-self: stretch;
-
-color: #000;
-/**//**/
-font-size: 27px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.navbar-collapse {
+  justify-content: space-around;
+  width: calc(100% - 130px);
 }
 
-.inputcta{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 40px;
-    flex-shrink: 0;
+.navbar-nav {
+  gap: 54px;
 }
 
-.inputs{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 20px;
-align-self: stretch;
-}
-.inputcont{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    align-self: stretch;
+.ctaplus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 156px;
+  width: 1040px;
+  height: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.inputs input{
-    height: 80px;
-    align-self: stretch;
+.mainContent {
+  display: flex;
+  width: 1312px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 64px;
+}
+.mainContent h2 {
+  height: 36px;
+  align-self: stretch;
+  color: #000;
+  /**/ /**/
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-    border-radius: 10px;
-border: 2px solid #EAEAEA;
-background: #FFF;
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
 }
-.mensajeInput{
-    height: 185px;
-    align-self: stretch;
-    border-radius: 10px;
-border: 2px solid #EAEAEA;
-background: #FFF;
+.contacto div {
+  display: flex;
+  width: 265px;
+  flex-direction: column;
+  align-items: flex-start;
 }
+.contacto h1 {
+  height: 92px;
+  align-self: stretch;
+  color: #000563;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.inputcta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  flex-shrink: 0;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.inputs input {
+  height: 80px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+}
+
+.inputcont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.mensajeInput {
+  height: 185px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+}
+
+/*# sourceMappingURL=contacto.css.map */
