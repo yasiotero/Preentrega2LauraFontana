@@ -116,14 +116,6 @@ h1,p,h2{
         }
     }
 }
-.nombreYasi{
-    color: $color2;
-    
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
 
 .lala{
     display: flex;
@@ -140,16 +132,18 @@ h1,p,h2{
     }
 }
 
-
-.nombrelala{
-    height: 51px;
-    align-self: stretch;
-
+.nombreYasi{
     color: $color2;
     
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.nombrelala{
+    @extend .nombreYasi;
+    
+    height: 51px;
+    align-self: stretch;
 }
 
